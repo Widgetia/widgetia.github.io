@@ -3,10 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="noindex" />
-	<meta http-equiv="refresh" content="1;url=https://algerify.com/widgetia">
-    <title></title>
+    <meta name="description" content="Discover Widgetia, the all-in-one desktop widget solution to personalize your workspace with weather, news, productivity tools, and more. Download now!">
+    <title>Widgetia - Your All-in-One Desktop Widget Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        body {
+            @apply font-['Inter',_sans-serif] text-gray-700 bg-gray-50;
+        }
+        .hero {
+             /* Example gradient - adjust colors as needed */
+            @apply bg-gradient-to-r from-blue-600 to-indigo-700 text-white text-center py-16 px-4 sm:py-24;
+        }
+        .hero h1 {
+            @apply text-4xl sm:text-5xl font-bold mb-3 tracking-tight;
+        }
+        .hero p.subtitle {
+            @apply text-xl sm:text-2xl font-light italic mb-6 opacity-90;
+        }
+         .hero p.description {
+            @apply text-lg max-w-3xl mx-auto font-normal;
+        }
+        section {
+            @apply py-12 px-4 sm:py-16;
+        }
+        h2 {
+            @apply text-3xl font-semibold text-gray-800 mb-6 text-center sm:text-left;
+        }
+        .feature-list li, .widget-list li {
+            @apply flex items-start mb-4;
+        }
+        .feature-list svg, .widget-list svg {
+            @apply w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0; /* Lucide check icon */
+        }
+        .cta {
+            @apply bg-gray-100 text-center py-12 px-4 sm:py-16;
+        }
+         .cta h2 {
+             @apply text-center; /* Center CTA heading */
+         }
+        .cta p {
+             @apply max-w-2xl mx-auto mb-8 text-lg;
+        }
+        .cta a {
+            @apply inline-block px-8 py-3 mx-2 my-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:-translate-y-1;
+        }
+         .cta a.secondary {
+            @apply bg-gray-600 hover:bg-gray-700;
+         }
+        footer {
+            @apply bg-gray-800 text-gray-300 text-center py-8 px-4;
+        }
+        footer p {
+            @apply mb-2 text-sm;
+        }
+        .social-icons a {
+            @apply inline-block mx-2 text-gray-400 hover:text-white transition duration-300;
+        }
+        .social-icons img { /* Style for img tags used for icons */
+            @apply w-6 h-6 inline-block;
+            filter: invert(75%) sepia(11%) saturate(94%) hue-rotate(176deg) brightness(92%) contrast(89%); /* Adjust filter for gray-400 */
+        }
+         .social-icons a:hover img {
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(102%) contrast(102%); /* Adjust filter for white on hover */
+         }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="antialiased">
+
+    <div class="hero">
+        <div class="container mx-auto px-4">
+            <h1>Welcome to Widgetia</h1>
+            <p class="subtitle">Widgets That Work for You</p>
+            <p class="description">Upgrade your desktop with tools and info tailored to your life—weather, news, productivity, and more, all in one spot.</p>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="container mx-auto max-w-4xl px-4">
+            <h2>Meet Widgetia</h2>
+            <p class="text-lg leading-relaxed text-center sm:text-left">Say goodbye to cluttered browsers and hello to Widgetia—a desktop app that puts everything you need right at your fingertips. Add the widgets you want, ditch the ones you don’t, and make your desktop work harder for you.</p>
+        </div>
+    </section>
+
+    <section id="features" class="bg-white">
+        <div class="container mx-auto max-w-4xl px-4">
+            <h2>Why Widgetia Stands Out</h2>
+            <ul class="feature-list space-y-4">
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Total Control:</strong> Build your perfect desktop with widgets you choose.</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Practical Tools:</strong> Timers, calculators, notes—designed for real life.</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Instant Updates:</strong> News, weather, and feeds, updated in real time.</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Work Smarter:</strong> Cut the chaos and focus on what matters.</span>
+                </li>
+                 <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Light & Fast:</strong> Enhances your desktop without slowing it down.</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="widgets">
+        <div class="container mx-auto max-w-4xl px-4">
+            <h2>Top Widgets to Try</h2>
+            <ul class="widget-list grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+                 <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
+                    <span><strong>Weather:</strong> Your forecast, front and center.</span>
+                </li>
+                 <li>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h7a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2Zm0 0h16v-9a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v9ZM18 2h-8v4h8ZM10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg>
+                    <span><strong>News:</strong> Breaking stories as they happen.</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"></path><path d="m4 14 6-6 2-3"></path><path d="M2 5h12"></path><path d="M7 2h1"></path><path d="m12 5 2 5"></path><path d="m8 14 4 4"></path><path d="m12 18 6 6"></path><path d="m22 12-6-6"></path></svg>
+                    <span><strong>Language Learning:</strong> Master a language, one word at a time.</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="10" x2="14" y1="2" y2="2"></line><line x1="12" x2="12" y1="5" y2="14"></line><circle cx="12" cy="14" r="8"></circle></svg>
+                    <span><strong>Timer Tool:</strong> Stay on top of every second.</span>
+                </li>
+                 <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><line x1="16" x2="12" y1="14" y2="14"></line><line x1="12" x2="12" y1="14" y2="18"></line><line x1="8" x2="8" y1="10" y2="18"></line><line x1="8" x2="12" y1="10" y2="10"></line></svg>
+                    <span><strong>Calculator:</strong> Quick math, no hassle.</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"></path><path d="M15 3v6h6"></path></svg>
+                    <span><strong>Notes:</strong> Capture thoughts instantly.</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+                    <span><strong>RSS Feeds:</strong> Your favorite content, streamlined.</span>
+                </li>
+                <li class="col-span-1 sm:col-span-2 text-center sm:text-left italic text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+                    <span>New widgets dropping all the time!</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="cta">
+        <div class="container mx-auto max-w-4xl px-4">
+            <h2>Take the Leap</h2>
+            <p>Why settle for a basic desktop? Download Widgetia today and turn it into your personal command center.</p>
+            <a href="https://algerify.com/widgetia">Get Widgetia Now</a>
+            <a href="https://algerify.com/widgetia" class="secondary">See How It Works</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container mx-auto px-4">
+            <p><em>Widgetia - Your All-in-One Desktop Widget Solution</em></p>
+            <p>Connect with us:</p>
+            <div class="social-icons">
+                <a href="https://x.com/Widgetia" target="_blank" rel="noopener noreferrer" aria-label="Widgetia on X/Twitter">
+                   <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/x.svg" alt="X/Twitter Icon"
+                        onerror="this.style.display='none'"/> </a>
+                <a href="https://facebook.com/Widgetia" target="_blank" rel="noopener noreferrer" aria-label="Widgetia on Facebook">
+                   <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/facebook.svg" alt="Facebook Icon"
+                        onerror="this.style.display='none'"/> </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Widgetia on Instagram">
+                   <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/instagram.svg" alt="Instagram Icon"
+                        onerror="this.style.display='none'"/> </a>
+                 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Widgetia on LinkedIn">
+                   <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/linkedin.svg" alt="LinkedIn Icon"
+                        onerror="this.style.display='none'"/> </a>
+            </div>
+            <p class="mt-4">© 2025 Widgetia. Built for you.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
